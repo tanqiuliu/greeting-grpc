@@ -1,0 +1,16 @@
+syntax = "proto3";
+package greeting;
+
+option go_package = "github.com/rubiskko/greeting-grpc/api/greetingpb";
+
+service Greeting {
+  rpc SayHello(GreetingRequest) returns (GreetingReply) {}
+}
+
+message GreetingRequest {
+  string name = 1;
+}
+
+message GreetingReply {
+  string greeting_message = 1;
+}
