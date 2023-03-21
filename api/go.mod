@@ -1,4 +1,4 @@
-module github.com/rubiskko/greeting-grpc/api
+module github.com/tanqiuliu/greeting-grpc/api
 
 go 1.20
 

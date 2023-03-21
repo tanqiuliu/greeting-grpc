@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 	"fmt"
-	pb "github.com/rubiskko/greeting-grpc/api/greetingpb"
+	pb "github.com/tanqiuliu/greeting-grpc/api/greetingpb"
 )
 
 const greetingMessageTemplate = "Hello, %s"

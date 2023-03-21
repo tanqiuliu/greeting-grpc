@@ -1,11 +1,11 @@
-module github.com/rubiskko/greeting-grpc/cli
+module github.com/tanqiuliu/greeting-grpc/cli
 
 go 1.20
 
-replace github.com/rubiskko/greeting-grpc/api => ../api
+replace github.com/tanqiuliu/greeting-grpc/api => ../api
 
 require (
-	github.com/rubiskko/greeting-grpc/api v0.0.0-00010101000000-000000000000
+	github.com/tanqiuliu/greeting-grpc/api v0.0.0-00010101000000-000000000000
 	google.golang.org/grpc v1.53.0
 )
 

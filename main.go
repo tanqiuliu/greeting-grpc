@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/rubiskko/greeting-grpc/cli"
-	"github.com/rubiskko/greeting-grpc/server"
+	"github.com/tanqiuliu/greeting-grpc/cli"
+	"github.com/tanqiuliu/greeting-grpc/server"
 	"os"
 )
 

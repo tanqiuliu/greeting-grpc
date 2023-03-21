@@ -1,16 +1,16 @@
-module github.com/rubiskko/greeting-grpc
+module github.com/tanqiuliu/greeting-grpc
 
 go 1.20
 
 replace (
-	github.com/rubiskko/greeting-grpc/api => ./api
-	github.com/rubiskko/greeting-grpc/cli => ./cli
-	github.com/rubiskko/greeting-grpc/server => ./server
+	github.com/tanqiuliu/greeting-grpc/api => ./api
+	github.com/tanqiuliu/greeting-grpc/cli => ./cli
+	github.com/tanqiuliu/greeting-grpc/server => ./server
 )
 
 require (
-	github.com/rubiskko/greeting-grpc/cli v0.0.0-00010101000000-000000000000
-	github.com/rubiskko/greeting-grpc/server v0.0.0-00010101000000-000000000000
+	github.com/tanqiuliu/greeting-grpc/cli v0.0.0-00010101000000-000000000000
+	github.com/tanqiuliu/greeting-grpc/server v0.0.0-00010101000000-000000000000
 )
 
 require (
@@ -24,7 +24,7 @@ require (
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
-	github.com/rubiskko/greeting-grpc/api v0.0.0-00010101000000-000000000000 // indirect
+	github.com/tanqiuliu/greeting-grpc/api v0.0.0-00010101000000-000000000000 // indirect
 	golang.org/x/net v0.5.0 // indirect
 	golang.org/x/sys v0.4.0 // indirect
 	golang.org/x/text v0.6.0 // indirect

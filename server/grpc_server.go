@@ -5,7 +5,7 @@ import (
 	"fmt"
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
-	"github.com/rubiskko/greeting-grpc/api/greetingpb"
+	"github.com/tanqiuliu/greeting-grpc/api/greetingpb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"log"
